@@ -29,7 +29,7 @@
     let questions = null;
     let score = null;
     let currentQuestionIndex = null;
-    let userAnswers = null
+    let userAnswers = null;
 
 
 
