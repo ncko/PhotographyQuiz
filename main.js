@@ -152,20 +152,20 @@
 
         {
             questionText: "More ISO or Gain introduces what into the image?",
-            answers: [ "Image noise (graininess)",
+            answers: [ "Warmth",
                        "Lens flares",
                        "Color contrast",
-                       "Warmth" ],
-            correctAnswer: 0
+                       "Image noise (graininess)" ],
+            correctAnswer: 3
         },
 
         {
             questionText: "Depth of Field refers to what?",
-            answers: [ "The distance between the closest and furthest object in focus",
-                       "The angle of view between the left and right extremes of your image at a given focal length",
+            answers: [ "The angle of view between the left and right extremes of your image at a given focal length",
                        "The amount of refraction of light over long distances",
+                       "The distance between the closest and furthest object in focus",
                        "The range of saturation of color within an image" ],
-            correctAnswer: 0
+            correctAnswer: 2
         },
 
         {
@@ -197,11 +197,11 @@
 
         {
             questionText: "Adjusting your shutter speed to be slower affects the image in which way?",
-            answers: [ "Brighter image with more motion blur",
-                       "Brighter image with less motion blur",
-                       "Darker image with more motion blur",
-                       "Darker image with less motion blur" ],
-            correctAnswer: 0
+            answers: [ "Darker image with more motion blur",
+                       "Darker image with less motion blur",
+                       "Brighter image with more motion blur",
+                       "Brighter image with less motion blur" ],
+            correctAnswer: 2
         },
 
         {
@@ -215,20 +215,20 @@
 
         {
             questionText: "On some cameras, the aperture setting is called",
-            answers: [ "The Iris",
-                       "The Gain",
+            answers: [ "The Gain",
+                       "The Iris",
                        "The Cornea",
                        "The Pupil" ],
-            correctAnswer: 0
+            correctAnswer: 1
         },
 
         {
             questionText: "Lead space refers to:",
-            answers: [ "The room in front of a subject facing to the left or right of the image",
-                       "The space between you and the tripod",
+            answers: [ "The space between you and the tripod",
                        "The amount of room above a subjects head",
+                       "The room in front of a subject facing to the left or right of the image",
                        "The amount of space between the leading subject and the background subject" ],
-            correctAnswer: 0
+            correctAnswer: 2
         }
     ];
   
