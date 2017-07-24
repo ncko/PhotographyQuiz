@@ -1,0 +1,122 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px/1.5 'Open Sans', sans-serif;
+  background-color: #F7F7F8;
+  color: #526173;
+  padding: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin: 0 0 1.5rem 0;
+}
+
+h1, .jumbo {
+  font-size: 48px;
+  line-height: 1em;
+}
+
+h2, .display {
+  font-size: 24px;
+  line-height: 1.5rem;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0 0 1.5rem 0;
+}
+
+button {
+  background-color: #353DA4;
+  border-radius: 3px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0;
+  padding: 12px;
+}
+
+
+
+
+
+/* layout */
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.start-section, .view-score-section {
+  text-align: center;
+}
+
+
+
+
+
+.card {
+  background: #fff;
+  padding: 32px;
+  box-shadow: 0 24px 32px 0 rgba(82, 97, 115, 0.1);
+  border-radius: 3px;
+}
+
+.card-heading {
+  font-size: 16px;
+  color: #A8B0B8;
+}
+
+
+.primary-header {
+  text-align: center;
+}
+
+
+/* form */
+input[type="radio"] {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  margin-top: 4px;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 1.5rem 0.75rem;
+  vertical-align: top;
+  max-width: 80%;
+}
+
+.answers {
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+
+.fail {
+  color: #D61600;
+}
+
+.success {
+  color: #05B92B;
+}
+
+.warning {
+  color: #FFD452;
+}
+
+.hide {
+  display: none;
+}
+
+
+

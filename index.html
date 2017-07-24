@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Take this quiz and test your knowledge of photography basics.">
+    <title>Photography Basics Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" type="text/css">
+    <link href="grid.css" rel="stylesheet" type="text/css">
+    <link href="main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="wrapper">
+    
+      <header role="banner">
+        <h1 class="primary-header">Photography Basics Quiz</h1>
+      </header>
+      
+      <main role="main">
+        
+        <!-- Start Screen -->
+        <section class="start-section card js-start-section">
+            <p>Take the quiz and test your knowledge of basic photography.</p>
+            <button type="button" class="js-start-btn">Start Quiz</button>
+        </section>
+        
+        
+        <!-- Question -->
+        <section class="js-quiz-section row hide">
+          <div class="col-8">
+            <div class="card">
+              <h2 class="card-heading js-progress"></h2>
+              <form role="form" class="js-quiz-form">
+                <h3 class="display js-question-element"></h3>
+                <div class="answers clearfix">
+                  <div>
+                    <input id="answer0" class="js-question-element" type="radio" name="question" value="0">
+                    <label for="answer0" class="js-answer js-question-element"></label>
+                  </div>
+                  
+                  <div>
+                    <input id="answer1" class="js-question-element" type="radio" name="question" value="1">
+                    <label for="answer1" class="js-answer js-question-element"></label>
+                  </div>
+                  
+                  <div>
+                    <input id="answer2" class="js-question-element" type="radio" name="question" value="2">
+                    <label for="answer2" class="js-answer js-question-element"></label>
+                  </div>
+                  
+                  <div>
+                    <input id="answer3" class="js-question-element" type="radio" name="question" value="3">
+                    <label for="answer3" class="js-answer js-question-element"></label>
+                  </div>
+                </div>
+                
+                <button type="submit" class="js-submit-answer-btn">Answer</button>
+              </form>
+              
+              <div class="js-feedback">
+                <h3 class="jumbo"></h3>
+                
+                <h4 class="js-your-answer__heading">Your Answer</h4>
+                <p class="js-your-answer__answer"></p>
+                
+                <h4 class="js-correct-answer__heading success hide">Correct Answer</h4>
+                <p class="js-correct-answer__answer"></p>
+            
+                <button type="button" class="js-next-question-btn hide">Next Question</button>
+                <button type="button" class="js-view-score-btn hide">View Score</button>
+              </div>
+              
+            </div> <!-- /card -->
+          </div><!-- /col-8 -->
+        
+          <div class="col-4">
+            <div class="card">
+              <h3 class="card-heading">Score</h3>
+              <p class="js-score__correct"></p>
+              <p class="js-score__incorrect"></p>
+            </div>
+          </div>
+
+        </section>
+
+        
+        
+        <!-- Results -->
+        <section class="view-score-section js-view-score-section card hide">
+          <h2 class="jumbo"></h2>
+          <p class="js-results">You got 8 correct out of 10 questions. Would you like to try again?</p>
+          <button type="button" class="js-try-again-btn">Try Again</button>
+        </section>
+        
+        
+      </main>
+    
+    </div><!-- /wrapper -->
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="quiz-module.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
