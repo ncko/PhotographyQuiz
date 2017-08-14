@@ -90,12 +90,23 @@ input[type="radio"] {
 label {
   display: inline-block;
   margin: 0 0 1.5rem 0.75rem;
+  font-size: 1rem;
   vertical-align: top;
   max-width: 80%;
 }
 
+legend {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
 .answers {
   margin-bottom: 1.5rem;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
 }
 
 
