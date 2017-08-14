@@ -20,40 +20,42 @@
       <main role="main">
         
         <!-- Start Screen -->
-        <section class="start-section card js-start-section">
+        <section class="start-section card js-start-section hide">
             <p>Take the quiz and test your knowledge of basic photography.</p>
             <button type="button" class="js-start-btn">Start Quiz</button>
         </section>
         
         
         <!-- Question -->
-        <section class="js-quiz-section row hide">
+        <section class="js-quiz-section row">
           <div class="col-8">
             <div class="card">
-              <h2 class="card-heading js-progress"></h2>
+              <h2 class="card-heading js-progress">Question 1 of 10</h2>
               <form role="form" class="js-quiz-form">
-                <h3 class="display js-question-element"></h3>
-                <div class="answers clearfix">
-                  <div>
-                    <input id="answer0" class="js-question-element" type="radio" name="question" value="0">
-                    <label for="answer0" class="js-answer js-question-element"></label>
+                <fieldset>
+                  <legend class="display js-question-element">The ISO or Gain setting adjusts what feature of the camera?</h3>
+                  <div class="answers clearfix" role="radiogroup">
+                    <div>
+                      <input id="answer0" aria-labeledby="label0" class="js-question-element" type="radio" name="question" value="0">
+                      <label id="label0" for="answer0" class="js-answer js-question-element">The size of the aperture</label>
+                    </div>
+                    
+                    <div>
+                      <input id="answer1" aria-labeledby="label1" class="js-question-element" type="radio" name="question" value="1">
+                      <label id="label1" for="answer1" class="js-answer js-question-element">The sensitivity of the sensor</label>
+                    </div>
+                    
+                    <div>
+                      <input id="answer2" aria-labeledby="label2" class="js-question-element" type="radio" name="question" value="2">
+                      <label id="label2" for="answer2" class="js-answer js-question-element">The zooming speed</label>
+                    </div>
+                    
+                    <div>
+                      <input id="answer3" aria-labeledby="label3" class="js-question-element" type="radio" name="question" value="3">
+                      <label id="label3" for="answer3" class="js-answer js-question-element">The focus assist</label>
+                    </div>
                   </div>
-                  
-                  <div>
-                    <input id="answer1" class="js-question-element" type="radio" name="question" value="1">
-                    <label for="answer1" class="js-answer js-question-element"></label>
-                  </div>
-                  
-                  <div>
-                    <input id="answer2" class="js-question-element" type="radio" name="question" value="2">
-                    <label for="answer2" class="js-answer js-question-element"></label>
-                  </div>
-                  
-                  <div>
-                    <input id="answer3" class="js-question-element" type="radio" name="question" value="3">
-                    <label for="answer3" class="js-answer js-question-element"></label>
-                  </div>
-                </div>
+                </fieldset>
                 
                 <button type="submit" class="js-submit-answer-btn">Answer</button>
               </form>
